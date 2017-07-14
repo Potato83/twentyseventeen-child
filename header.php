@@ -20,12 +20,12 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/style.min.css" />
+<link href="https://fonts.googleapis.com/css?family=<?php the_field('font', 'option'); ?>" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 <style>
-	h1{
+	h1, h2{
 		font-family: "<?php the_field('font', 'option'); ?>", <?php the_field('font_fallback', 'option'); ?>;
-		font-size: <?php the_field('font_size', 'option'); ?>px;
 	}
 </style>
 

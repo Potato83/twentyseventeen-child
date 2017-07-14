@@ -3,11 +3,11 @@ body{
 
 }
 
-a{
+.entry-content a{
 	box-shadow: none !important;
 }
 
-a:hover{
+.entry-content a:hover{
 	color: #2268e2 !important;
 	text-decoration: underline;
 }
