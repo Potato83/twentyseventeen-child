@@ -6,6 +6,6 @@
 
  if( function_exists('acf_add_options_page') ) {
 	
-	acf_add_options_page('Fonts and Colors');
+	acf_add_options_page('Fonts');
 	
 }
