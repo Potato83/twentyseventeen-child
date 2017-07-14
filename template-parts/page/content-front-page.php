@@ -19,10 +19,9 @@ $title_bg_image = get_field('title_bg_image');
 
 <style>
 	.front-title{
-		background: url(<?php echo $title_bg_image['url']; ?>) no-repeat;		
-		height: 200px;
-		padding: 20px;
-		margin-bottom: 10px;
+		height: 10px;
+		padding: 0px;
+		margin-bottom: 20px;
 	}
 </style>
 
