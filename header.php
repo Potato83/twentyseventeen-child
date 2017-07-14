@@ -22,6 +22,12 @@
 <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/style.min.css" />
 <?php wp_head(); ?>
 </head>
+<style>
+	h1{
+		font-family: "<?php the_field('font', 'option'); ?>", <?php the_field('font_fallback', 'option'); ?>;
+		font-size: <?php the_field('font_size', 'option'); ?>px;
+	}
+</style>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
