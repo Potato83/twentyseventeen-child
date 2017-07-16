@@ -24,7 +24,7 @@
 <?php wp_head(); ?>
 </head>
 <style>
-	h1, h2{
+	h1, h2, h3, h4, h5, h6{
 		font-family: "<?php the_field('font', 'option'); ?>", <?php the_field('font_fallback', 'option'); ?>;
 	}
 </style>
