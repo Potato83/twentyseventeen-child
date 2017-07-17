@@ -90,6 +90,27 @@ p.dim{
 	font-size: 0.8em;
 }
 
+/* mobile header */
+@media screen and (max-width: 480px) {
+
+    .has-header-image .custom-header-media img,
+    .has-header-video .custom-header-media video, 
+    .has-header-video .custom-header-media iframe, 
+    .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+        height: auto;
+        left: 0;
+        max-width: 100%;
+        min-height: 0;
+        -o-object-fit: unset;
+        object-fit: unset;
+        position: relative;
+        -ms-transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
 
 
 
